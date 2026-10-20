@@ -2,6 +2,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
 
@@ -12,8 +13,6 @@ li {
   text-decoration: none;
   list-style: none;
 }
-
-/* Common CSS End */
 
 /* Header Section Start */
 #headerPart {
@@ -29,12 +28,11 @@ li {
 .headerFlex {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .menu ul {
   display: flex;
-  justify-content: center;
-  align-items: center;
   column-gap: 30px;
 }
 
@@ -52,7 +50,7 @@ li {
   border: 1px solid #417D6E;
   border-radius: 500px;
   margin-right: 10px;
-  transition: all linear .4s;
+  transition: all linear 0.4s;
 }
 
 .headerBtn a:hover {
