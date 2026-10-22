@@ -15,9 +15,16 @@ li {
 }
 
 /* Header Section Start */
+.full-bg {
+  background: url(../images/full-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 #headerPart {
   padding: 20px 0;
-  background: #ECEDEF;
+  /* background: #ECEDEF; */
 }
 
 .container {
@@ -59,3 +66,106 @@ li {
 }
 
 /* Header Section End */
+/* Hero Section Start  */
+.btn2 a {
+  font-size: 16px;
+  color: #242B36;
+  padding: 10px 18px;
+  border: 1px solid #417D6E;
+  border-radius: 10px;
+  margin-right: 10px;
+  transition: linear all 0.4s;
+}
+
+
+.btn2 a:hover {
+  color: #ECEDEF;
+  background: #007456;
+}
+
+.heroFlex {
+  height: 700px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heroText,
+.heroImage {
+  width: 50%;
+}
+
+.heroText {
+  position: relative;
+
+}
+
+.heroText h2 {
+  color: #242B36;
+  font-size: 54px;
+  font-weight: 500;
+}
+
+.heroText p {
+  color: #3B4759;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+
+
+.heroImage img {
+  width: 100%;
+}
+
+.btn2 {
+  margin-top: 32px;
+}
+
+.searchbtn {
+  position: relative;
+}
+
+.searchbtn input {
+  margin-top: 32px;
+  border: 1px solid #C4C8CE;
+  width: 550px;
+  border-radius: 10px;
+  height: 56px;
+  padding-left: 30px;
+
+}
+
+.searchbtn a img {
+  position: absolute;
+  top: 36px;
+  right: 17%;
+}
+
+.moreBtn {
+  margin-top: 20px;
+  height: 88px;
+  position: relative;
+
+}
+
+.more1 {
+  position: absolute;
+  top: 20px;
+}
+
+.more2 {
+  position: absolute;
+  top: 80px;
+}
+
+.moreBtn div a {
+  font-size: 16px;
+  color: #242B36;
+  border: 1px solid #677181;
+  border-radius: 8px;
+  padding: 12px 8px;
+  margin-right: 10px;
+}
+
+/* Hero Section End */
