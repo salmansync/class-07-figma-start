@@ -215,12 +215,16 @@ li {
 .categoriesCard h3 {
   font-size: 18px;
   font-weight: 500;
+  margin-bottom: 6px;
 }
 
 .categoriesCard p {
   font-size: 14px;
   font-weight: 400;
+  margin-bottom: 12px;
 }
+
+
 
 /* Categories Section End */
 
